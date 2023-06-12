@@ -308,6 +308,7 @@ const Home = () => {
 
         previousHeight += fontSize - 4;
       }
+    previousHeight += 16;
     });
     form.flatten();
     const pdfBytes = await pdfDoc.saveAsBase64({ dataUri: true });
